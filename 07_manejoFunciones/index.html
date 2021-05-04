@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manejo de funciones</title>
+  <script src="js/script.js"></script>
+  <script>
+    function miFuncion1 () {
+      alert("Hola desde funcion1");
+    }
+  </script>
+</head>
+<body>
+  <button onclick="miFuncion1 ();">Ejecutar funcion1</button>
+  <br>
+  <button onclick="miFuncion2 ('Evelyn');">Ejecutar funcion2</button>
+  <br>
+  <label>Escribe tu nombre y presiona enter</label>
+  <input type="text" name="nombre" onchange="mostrarNombre(this);"/>
+</body>
+</html>
